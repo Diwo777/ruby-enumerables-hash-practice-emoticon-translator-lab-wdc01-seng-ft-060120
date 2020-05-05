@@ -15,14 +15,11 @@ end
 def get_english_meaning(yaml_file,j_emoticon)
  library = YAML.load_file(yaml_file)
  library.each do |key,value|
-   if j_emoticon == value[1]
-   return key
-  else 
-    return "Sorry, that emoticon was not found"
+   binding.pry
 
 end
 end
-end
+
 
 def get_japanese_emoticon
   
