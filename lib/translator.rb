@@ -23,7 +23,7 @@ return "Sorry, that emoticon was not found"
 end
 
 
-def get_japanese_emoticon(i_emoticon)
+def get_japanese_emoticon(yaml_filei_emoticon)
   library = load_library(yaml_file)
  library.each do |key,value|
    binding.pry
