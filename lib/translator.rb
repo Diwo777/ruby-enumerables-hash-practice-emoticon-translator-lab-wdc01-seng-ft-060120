@@ -16,8 +16,10 @@ def get_english_meaning(yaml_file,j_emoticon)
  library = YAML.load_file(yaml_file)
  library.each do |key,value|
    if j_emoticon == value[1]
+     binding.pry
      return key
-binding.pry
+
+end
 end
 end
 
