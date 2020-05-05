@@ -13,7 +13,7 @@ output
 end	
 
 def get_english_meaning(yaml_file,j_emoticon)
- library = YAML.load_file(yaml_file)
+ library = load_library(yaml_file)
  library.each do |key,value|
    binding.pry
 
