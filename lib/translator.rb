@@ -26,6 +26,7 @@ end
 def get_japanese_emoticon(i_emoticon)
   library = load_library(yaml_file)
  library.each do |key,value|
+   binding.ry
    if i_emoticon == value[:english]
      return value[:japanese]
    end
