@@ -31,6 +31,7 @@ def get_japanese_emoticon(yaml_file,i_emoticon)
      return value[:japanese]
    end
    end
+   return "Sorry, that emoticon was not found"
 end
 
 
