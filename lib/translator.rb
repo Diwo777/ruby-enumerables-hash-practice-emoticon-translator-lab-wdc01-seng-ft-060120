@@ -19,8 +19,8 @@ def get_english_meaning(yaml_file,j_emoticon)
      return key
    else
      return "Sorry, that emoticon was not found"
-   binding.pry
-
+   
+end
 end
 end
 
